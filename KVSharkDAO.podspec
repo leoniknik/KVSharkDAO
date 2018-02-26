@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "VolodinK" => "VolodinK@binbank.ru" }
 
-  s.source       = { :git => "https://github.com/leoniknik/KVSharkDAO.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/leoniknik/KVSharkDAO.git" }
 
   s.ios.deployment_target = '10.0'
 
@@ -25,3 +25,5 @@ Pod::Spec.new do |s|
   s.dependency 'SharkORM'
 
 end
+
+# git tag "0.0.1" && git push origin master --tags
