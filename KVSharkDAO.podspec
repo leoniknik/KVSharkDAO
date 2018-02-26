@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KVSharkDAO"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "DAO for SharkORM"
 
   s.description  = <<-DESC
